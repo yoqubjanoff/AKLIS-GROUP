@@ -1,0 +1,10 @@
+footer{
+
+    transition: all 0.3 ease-in;
+}
+
+.social{
+}
+.social:hover{
+    transform: rotate(360deg);
+}

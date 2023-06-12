@@ -1,0 +1,43 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    z-index: 9999;
+    backdrop-filter: blur(50px);
+    padding: 1rem 0;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    transition:  0.3s ease-in-out;
+
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1.5px solid transparent;
+
+}
+.nav-link:hover{
+    border-bottom: 1.5px solid #000000;
+}
+.form-select{
+    border: none !important;
+    outline: none !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.burger{
+    display: none;
+}

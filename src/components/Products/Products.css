@@ -1,0 +1,17 @@
+
+.products-section{
+}
+.cards{
+    margin-bottom: 20px !important;
+}
+.card-img{
+    width: 409px !important;
+    height: 409px !important;
+    border: none !important;
+}
+.our-products{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
